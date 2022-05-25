@@ -9,7 +9,7 @@ do
     fi
 done
 
-xdotool getactivewindow windowmove 515 0
-xdotool getactivewindow windowsize 2095 100%
+xdotool windowmove $active_window_id 500 0
+xdotool windowsize $active_window_id 2060 100%
 
 # xdotool key super+ctrl+shift+alt+a
