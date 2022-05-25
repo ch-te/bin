@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+xdg-open 'https://git.int.kn/projects/KLVC/repos/visco-public/pull-requests?state=OPEN&reviewer=&filterText='$1

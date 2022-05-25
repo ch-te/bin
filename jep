@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+xdg-open https://nsv-public-visibility-jenkins-cp-430801.apps.cluster1.emea.cp.int.kn/search/?q=$1

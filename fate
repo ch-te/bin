@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+xdg-open https://denotsl1866.int.kn:8443/console/project/kngot-$1/overview
