@@ -7,6 +7,6 @@ nameserver 192.168.137.1' >> /etc/resolv.conf
 
 bat /etc/resolv.conf
 echo
-ip route add 100.64.0.0/10 via 192.168.137.1 dev enp47s0f3u4
+ip route add 100.64.0.0/10 via 192.168.137.1 dev enp47s0f3u3
 echo
 ip route | grep 100.64.0.0
