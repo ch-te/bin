@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-
-wmctrl -xa IDEA || intellij-idea-ultimate-edition
-
-~/bin/minimize_other_windows.sh
-
+if wmctrl -xa IDEA; then
+    ~/bin/minimize_other_windows.sh
+else
+  intellij-idea-ultimate-edition
+fi

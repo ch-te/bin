@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-wmctrl -xa emacs || emacs
-
-~/bin/minimize_other_windows.sh
-
+if wmctrl -xa emacs; then
+    ~/bin/minimize_other_windows.sh
+else
+  emacs
+fi

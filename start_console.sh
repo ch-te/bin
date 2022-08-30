@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-wmctrl -xa alacritty || alacritty
-
-~/bin/minimize_other_windows.sh
-
+if wmctrl -xa alacritty; then
+    ~/bin/minimize_other_windows.sh
+else
+  alacritty
+fi
